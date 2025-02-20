@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.cache/
+.out/
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+debug.log*
+error.log*
+
+# Editor & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Firebase files (if using Firebase)
+.firebase/
+firestore.indexes.json
+firestore.rules
+expense-tracker-backend/firebase-admin.json
+
+# React-specific files
+*.lock
+.eslintcache
+.next/
+out/
+coverage/
